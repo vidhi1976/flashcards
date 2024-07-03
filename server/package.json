@@ -1,6 +1,5 @@
 {
   "name": "server",
-  "version": "1.0.0",
   "description": "utility-app",
   "main": "index.js",
   "scripts": {
