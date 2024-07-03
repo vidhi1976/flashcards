@@ -15,7 +15,9 @@ const PORT = 5000;
 const app = express();
 
 app.use(cors({
-  origin:"*"
+  origin: 'https://flashcards-client-iota.vercel.app', // Allow requests from this origin
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow these HTTP methods
+  allowedHeaders: ['Content-Type', 'Authorization'], // Allow these headers
 }));
 
 app.use(express.json());
