@@ -19,7 +19,7 @@ const router = createBrowserRouter([
 import './index.css'
 import { Header } from './Header.tsx';
 
-<script src="https://cdn.tailwindcss.com"></script>
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
