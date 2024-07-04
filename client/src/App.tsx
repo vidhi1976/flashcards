@@ -54,7 +54,7 @@ function App() {
         {decks.map((deck) => (
           <a
             href="#"
-            className="m-5 text-center block max-w-sm p-4 bg-white border border-gray-100 rounded-lg shadow hover:bg-gray-500 dark:bg-gray-800 dark:border-gray-900 dark:hover:bg-gray-700 h-40 w-40"
+            className="m-5 text-center block max-w-sm p-4 bg-white border border-gray-100 rounded-lg shadow hover:bg-gray-500 dark:bg-gray-800 dark:border-gray-900 dark:hover:bg-gray-700 h-64 w-64"
           >
             <button
               className="flex ml-auto text-xs text-right bg-gray-800"
